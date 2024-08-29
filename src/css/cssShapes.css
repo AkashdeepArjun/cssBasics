@@ -1,0 +1,52 @@
+
+html{
+
+  font-size: 8px;
+  /*box-sizing:border-box;*/
+}
+
+
+.wrapper{
+  
+background-color:#b768a2 ;
+
+width:144rem;
+height: 108rem;
+color:white;
+
+}
+
+
+img{
+  
+  width: 48rem;
+  height:27rem;
+  float: left;
+  shape-outside: polygon(100%);
+}
+
+.cont2{
+  
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width:80rem;
+  height:60rem;
+  background: url('../assets/teamwork.jpg') center/100% 100% no-repeat;
+  
+  border-radius: 100%;
+  border:1rem solid green;
+  background-clip:text;
+  align-items:center;
+  justify-self:center;
+}
+
+h1{
+
+  position:relative;
+  /*align-self: center;*/
+  /*justify-self: center; */
+  
+  font-size: 10rem;
+
+}

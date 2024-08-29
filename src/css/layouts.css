@@ -1,0 +1,34 @@
+html{
+
+font-size: 8px;
+
+}
+
+
+body{
+
+  background-color: purple;
+}
+
+  /*BLOCK LEVEL ELEMENT*/
+p{
+
+  background-color:#bef381;
+
+}
+
+/*INLINE LEVEL ELEMENT*/
+span{
+
+  background-color: #a192cc;
+  /*text-wrap: nowrap;*/
+
+}
+h1{
+
+  background-color: #b29600;
+  border-radius: 1.25rem;
+  padding: 0.5rem;
+  color: #b29600;
+
+}

@@ -1,0 +1,41 @@
+@import './basicSetup.css';
+
+
+/*APPLIES TO FIRST CHILD*/
+
+article p:first-child{
+
+  
+  font-style: bold;
+  background-color: #90b4a6;
+
+
+}
+
+
+
+article p:last-child{
+
+  font-style:italic;
+  background-color: pink;
+}
+
+
+article h1:only-child{
+
+  background-color: yellow;
+  padding: 2rem;
+}
+
+
+
+.popat::before{
+
+content: "";
+  width: 12rem;
+  height: 12rem;
+  background-color: blue;
+  display: block;
+  border: 0.5rem solid black;
+
+}

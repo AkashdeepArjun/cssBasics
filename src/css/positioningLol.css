@@ -1,0 +1,65 @@
+html{
+
+
+  font-size:8px;
+  padding:8px;
+}
+
+body h1:nth-child(1){
+
+  position:static;
+  background-color: yellow;
+}
+
+
+
+body>h1:nth-child(2){
+
+  position:relative;
+  background-color:#042a2b;
+  padding:1rem;
+  color:white;
+  left:2rem;
+  top:2rem;
+/*   bottom:0rem; */
+
+  /* z-index:2; */
+}
+
+
+
+
+.container{
+  
+  position:static;
+
+  background-color:#DEB49E;
+ 
+  display:flex;
+  /* justify-items: center; */
+  padding:1rem;
+  /* align-items: center; */
+
+}
+
+
+.container h1:first-child{
+  
+  position:absolute  ;
+  
+  top: 0;
+  bottom:0;
+  /* left: 0; */
+  /* right:0; */
+  background-color:#ef7b45;
+
+  padding:1rem;
+
+  /* left:2rem; */
+  /* top:5rem; */
+  /* z-index: 2; */
+
+
+
+
+}

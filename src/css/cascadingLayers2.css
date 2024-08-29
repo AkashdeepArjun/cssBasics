@@ -1,0 +1,30 @@
+@import './basicSetup.css';
+
+@layer default{
+
+body{
+
+  background-color: #108;
+}
+
+
+}
+
+
+@media(max-width:640px){
+
+
+@layer greenui{
+
+  body{
+
+    background-color:green ;
+  }
+}
+
+
+
+}
+
+
+

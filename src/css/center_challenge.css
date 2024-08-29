@@ -1,0 +1,40 @@
+html{
+
+
+
+  font-size: 8px;
+
+}
+
+
+
+.cont{
+  
+  width: 50vw;
+  height:50vh;
+
+  background-color:purple;
+  
+  border:0.125rem dashed black;
+
+  display: flex;
+
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+
+
+}
+
+
+.item{
+
+  width:2rem;
+  height: 1rem;
+  background-color: white;
+
+  border:0.5rem solid yellow;
+
+
+
+}

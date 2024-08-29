@@ -1,0 +1,54 @@
+
+  
+/*PRIORITY-1*/
+
+/*body{*/
+/**/
+/*  background-color: cyan;*/
+/*}*/
+/**/
+
+
+@layer xeno{
+
+  body{
+
+    background-color: grey;
+    border: 0.25rem dashed gold;
+  }
+
+
+}
+
+
+/*TAKES HIGH PRIORITY */
+
+@layer pinkRanger{
+
+  body{
+    
+    background-color: green;
+
+    border:0.25rem solid pink;  
+
+
+  }
+
+
+
+}
+@layer potatoes;
+
+@layer potatoes{
+
+  body{
+  
+    background-color: black;
+
+    border: none;  
+  }
+
+
+}
+
+

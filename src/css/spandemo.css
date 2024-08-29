@@ -1,0 +1,8 @@
+@import './intro.css';
+
+span{
+
+  background-color:#474973;
+  color: white;
+  padding: 0.25rem;
+}

@@ -1,0 +1,43 @@
+html{
+
+  font-size:8px;
+
+
+}
+
+
+.coetainer{
+  width:50vw;
+  height:50vh;
+  background-color:#6b8282;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows:repeat(2,1fr);
+  gap:1.25rem;
+
+ text-align:center;
+
+
+
+}
+
+#subgrid{
+  
+  background-color:#ac3bd9;
+  grid-column: 1/4;
+  grid-row:2/4;
+  gap:inherit;
+  grid-template-rows: 1fr 1fr;
+  display:grid;
+  grid-template-columns:subgrid;
+  
+
+
+}
+
+.item{
+
+  background-color:gold;
+  color:black;
+
+}

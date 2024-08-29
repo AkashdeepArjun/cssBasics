@@ -1,0 +1,39 @@
+html{
+
+  
+  font-size:8px;
+
+
+}
+
+
+
+.cont{
+  
+  width:100vw;
+  height:50vh;
+  background-color:green;
+  overflow: scroll;
+  padding:5rem;
+}
+
+.sb{
+width:25%;
+  height:24vh ;
+/*   position:sticky; */
+  background-color:purple;
+}
+
+ .cont .bb:nth-child(2){
+  position:sticky;
+  top:0;
+  left:0;
+/*   left:5rem; */
+  width:25%;
+  height:70vh;
+  background-color:yellow;
+ 
+
+  
+
+}

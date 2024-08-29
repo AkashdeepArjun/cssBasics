@@ -1,0 +1,28 @@
+
+@import './basicSetup.css';
+
+
+body{
+
+  background: linear-gradient(45deg,red,grey,pink);
+
+
+}
+
+
+
+
+div{
+
+  width: 16rem;
+  height:9rem;
+  
+  background:#3077b5;
+  color: yellow;
+  overflow:hidden scroll;
+  word-spacing:1rem;
+  /*line-height: 1rem;*/
+  /*padding-right: 8rem;*/
+ 
+
+}

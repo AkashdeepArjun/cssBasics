@@ -1,0 +1,33 @@
+@import './basicSetup.css';
+
+
+.box{
+
+  margin: 1rem;
+  width:200px;
+  height: 200px;
+  background:#4b1d3f ;
+  border: 1rem solid green;
+  /*background-size:cover;*/
+}
+
+
+img{
+
+  /*max-width: 100%;*/
+
+  width:100%;
+  height:100%;
+
+}
+
+
+.cov{
+
+  object-fit: cover;
+}
+
+
+.con{
+  object-fit: contain;
+}

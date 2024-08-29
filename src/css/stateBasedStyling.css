@@ -1,0 +1,22 @@
+html{
+  
+
+  font-size: 1rem;
+}
+
+
+
+a:link{
+
+  color:#291c2e;
+}
+
+a:visited{
+  color:green;
+  text-decoration: none;
+}
+
+a:hover{
+
+  color:#bfefff;
+}

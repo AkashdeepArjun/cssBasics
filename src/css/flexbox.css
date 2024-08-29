@@ -1,0 +1,48 @@
+html{
+
+  
+
+  font-size:8px;
+
+
+}
+
+body{
+
+  background-color: #966527;
+
+}
+
+
+
+h1{
+  
+  background-color:#966527 ;
+}
+
+h2{
+  background-color: #522e31;
+  color: white;
+  height: 100%;
+
+
+  order: 2;
+}
+
+section{
+
+  background-color: #b1cbb2;
+ /*padding: 0.25rem;*/
+ margin-top:1rem;
+ border:0.25rem solid black;
+ display: flex;
+ flex-flow: row nowrap;
+}
+
+
+article{
+
+order: 1;
+background-color: #ff8234;
+
+}

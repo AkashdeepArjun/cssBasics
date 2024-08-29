@@ -1,0 +1,56 @@
+@import './basicSetup.css';
+/*html{*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+img{
+
+  border: 0.5rem solid white;
+}
+
+div{
+
+ margin-top:1rem; 
+  border: 0.25rem dashed yellow;
+
+}
+
+div.trex{
+  
+  width:12rem;
+
+  height: 12rem;
+
+  border: 0.75rem solid green;
+
+  margin:10rem;
+  
+  padding: 10rem;
+
+  background-color: #733e4e;
+  /*justify-items:center;*/
+}
+
+div.raptor{
+    
+  width: 50vw;
+
+  height:50vh;
+
+  border:0.25 dashed yellow;
+
+  margin:10%;
+
+  padding:10%;
+
+  background-color: #e6e6fa;
+
+}
+
+div.settings{
+  
+  width:10rem;
+  min-height: 10rem;
+font-size: 2rem;
+background-color:#50c878 ;
+}

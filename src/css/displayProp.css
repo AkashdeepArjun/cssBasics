@@ -1,0 +1,44 @@
+html{
+
+  font-size:8px;
+
+}
+
+
+p{
+  
+  display: inline;
+  /*display:block;*/
+  background-color: #efcfcd;
+  padding: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+ul{
+  
+  border:0.125rem solid black;
+ 
+  padding: 0.25rem;
+ 
+text-wrap: balance;
+
+/*margin-block: 0.5rem;*/
+
+}
+
+ul>li{
+  display:inline;
+  text-transform: capitalize;
+  padding: 0.075rem;
+
+  margin:0.25rem;
+}
+
+li{
+ 
+  background-color: #2a6877 ;
+  color:white; 
+/*margin-block: 0.5rem;*/
+  margin-inline: 0.25rem;
+
+}

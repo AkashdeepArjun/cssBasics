@@ -1,0 +1,81 @@
+html{
+
+  font-size: 8px;
+  color:white;
+}
+
+
+
+body{
+
+}
+
+main{
+
+
+  display: flex;
+  flex-direction: column;
+
+  /*flex-flow:column;*/
+  background-color: #A200DB;
+  width:50vw;
+}
+
+
+.container {
+
+  
+  display:inline-flex;
+  background-color:#47476B;
+  padding: 1rem;
+  /*border: 0.5rem dashed black;*/
+  color: white;
+
+}
+
+/*body *{*/
+/**/
+/*  display: inline-block;*/
+/*}*/
+/**/
+
+.fw_normal{
+
+  
+  font-weight: normal; 
+
+}
+
+.fw_lighter{
+
+  font-weight:lighter;
+}
+
+.fw_bolder{
+
+  font-weight: bolder;
+
+}
+
+.fw_bold{
+
+  font-weight: bold;
+
+}
+
+h2{
+
+  text-shadow: 2rem 0.25rem 0.25rem yellow;
+
+}
+
+p{
+  font: normal normal bold normal 1rem/2rem 'serif';
+}
+
+dt{font-weight: bold;}
+
+dd{font-style: italic;}
+
+
+

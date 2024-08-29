@@ -1,0 +1,33 @@
+/*@import './basicSetup.css';*/
+
+html{
+
+  font-size: 8px;
+
+}
+
+body{
+  background-color:white;
+}
+
+
+.banner{
+
+  width:50vw;
+  height:25%;
+  background: purple;
+  color: white;
+  box-shadow:0.125rem 0.125rem 0rem #03079680,0.25rem 0.25rem 0.125rem green;
+  padding: 0.5rem;
+
+
+}
+
+.banner:hover{
+
+    box-shadow:inset 0.125rem 0.125rem 0rem #03079680, inset 0.25rem 0.25rem 0.125rem green;
+
+}
+
+
+

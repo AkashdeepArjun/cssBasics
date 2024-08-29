@@ -1,0 +1,110 @@
+@import './basicSetup.css';
+
+
+h1{
+  
+  background-color: #ff93cd ;
+
+}
+
+
+.special{
+
+  background-color: #373260;
+  color: white;
+  padding: 0.25rem;
+}
+
+
+/*TARGETS ELEMENT WITH ATTRIBUTE*/
+
+h1[jackass]{
+
+  background-color: red;
+  color: white;
+
+}
+
+/*TARGETS FIRST LINE OF PARAGRAPH*/
+
+body>p::first-line{
+
+  
+  background-color:#5c4033 ;
+  color: white;
+
+}
+
+
+/*//TARGETS DIRECT ELEMENT OF ARTICLE*/
+article >p{
+
+  background-color: #93ccea;
+
+}
+
+
+/*TARGETS DIRECT CHILD OF ARTICLE */
+
+article >h2{
+  background-color: #69993d;
+}
+
+
+
+
+
+
+/*TARGETS ELEMENTS INSIDE ARTICLE*/
+body>article *{
+
+  font-size: 4rem;
+}
+
+
+
+/*CLASS SELECTOR*/
+.deadpool{
+
+  font-family: cursive;
+  background-color: yellow;
+}
+
+/*//SELECTING ELEMETS WITH CLASS APPLIED */
+
+article.anger{
+
+  background-color:#587283;
+  font-size: 3rem;
+  padding: 1rem;
+  color:white;
+}
+
+.notify{
+
+  border:0.25rem dotted grey;
+  font-size: 2rem;
+  padding:1rem;
+}
+
+/*WORKS IF NOTIFY CLASS IS APPLIED AS WELL*/
+
+.notify.warning{
+
+  border-color: orange;
+}
+
+.notify.error{
+  border-color:red;
+}
+
+
+
+
+
+h1#q{
+
+  background-color: brown;
+  color: white;
+
+}

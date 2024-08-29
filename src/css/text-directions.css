@@ -1,0 +1,34 @@
+@import './basicSetup.css';
+
+
+h1{
+
+  /*display:inline-flex;*/
+  background-color: #ae360d;
+  color: white;
+  writing-mode: horizontal-tb;
+  font-size:4rem;
+  padding: 3rem;
+
+}
+
+.vert{
+
+  writing-mode:vertical-lr;
+  border:1rem solid yellow;
+  inline-size: 48rem;
+  block-size: 16rem;
+  /*margin-top: 20rem;*/
+  margin-block-end:1rem;
+  padding-inline-start: 3rem; /* PADDING ACCORDING TO WRITING DIRECTION */
+  /*padding-left:3rem;*/
+  }
+
+.hori{
+
+  writing-mode: horizontal-tb;
+  border:1rem solid green;
+  inline-size: 10rem;
+
+
+}

@@ -1,0 +1,33 @@
+
+html{
+
+  font-size: 8px;
+}
+
+
+
+section{
+  background-color: #a7d8de;
+  padding: 1rem;
+}
+
+
+  /*TARGETS ALL PARAGRAPH ELEMENTS*/
+
+ p{
+
+  font-size: 1rem;
+}
+
+
+/*TARGETS PARAGRAPH INSIDE SECTION */
+
+section p{
+
+  font-size: 3rem;
+}
+
+p+article{
+  background-color: #ffa700;
+  padding: 0.25rem;
+}

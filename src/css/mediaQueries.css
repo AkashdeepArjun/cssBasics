@@ -1,0 +1,45 @@
+
+html{
+
+
+  font-size:8px;
+}
+
+
+main{
+
+  width:50vw;
+  height:50vh;
+  border:0.5rem dashed black;
+
+
+}
+
+
+@media screen and (40rem <=width <=80rem){
+
+
+  main.container{
+
+
+  background-color:yellow;
+
+}
+
+
+
+}
+
+
+@media screen and (min-width:80rem){
+
+
+main.container{
+  background-color:green;
+}
+
+
+
+}
+
+

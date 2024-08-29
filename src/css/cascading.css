@@ -1,0 +1,78 @@
+@import './basicSetup.css';
+
+
+/*SET-UP-1*/
+
+h1{
+  background-color: grey;
+  color:black;
+  padding: 1rem;
+}
+
+
+/*SET-UP-2: THIS WILL OVERRIDE PREVIOUS */
+
+h1{
+
+  color:white;
+}
+
+/*IF WE SPECIFY THIS CLASS WILL GET PRIORITY BETTER THAN OTHERS*/
+.bh{
+  color: blue;
+}
+
+body{
+
+  background-color: #dcc8e1;
+}
+
+/*STYLE-1*/
+
+p{
+  background-color:green;
+  border:none;
+  padding:0.25rem;
+}
+
+
+/*ELEMENT P WILL HAVE DEFAULT PROPERTY OVERRIDDEN IF ITS INSIDE THIS ELEMENT*/
+div{
+  
+  background-color:#fe7;
+  width:10rem;
+  height: 10rem;
+  border: 0.5rem dotted green;
+  padding: 1rem;
+  font-family: cursive;
+
+}
+
+
+p{
+
+ background-color: palegreen; 
+
+}
+
+p{
+
+  background-color:magenta;
+}
+
+p{
+  background-color: revert;
+}
+
+
+
+
+h1+p::first-letter{
+
+  background-color: cyan;
+}
+
+/*p{*/
+/**/
+/*  background-color:initial;*/
+/*}*/

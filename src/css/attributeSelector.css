@@ -1,0 +1,87 @@
+@import './basicSetup.css';
+
+
+
+
+.bg_red{
+
+  background-color: red;
+  color: white;
+}
+
+.medium_font{
+
+  font-size: 4rem;
+}
+
+.bg_purple{
+  
+  background-color:purple;
+  color: white;
+
+}
+
+
+/*APPLIED ONLY IF CLASS attribute  CONTAINS ONLY THIS CLASS*/
+
+h1[class="bg_red"]{
+
+border:0.5rem dotted yellow;
+
+}
+
+/*APPLIED IF CLASS ATTRIBUTE CONTAINS GIVEN VALUE*/
+
+h2[class~="bg_purple"]{
+
+border:0.5rem dotted yellow;
+}
+
+
+.potlol{
+
+  background-color: orange;
+  padding: 1rem;
+}
+
+.tomato{
+
+  border: 0.5rem dotted white;
+}
+
+/*MATCHES VALUES WITH EXACT VALUE OR VALUE THAT FOLLOWED BY HYPHONES*/
+
+h3[class|="pot"]{
+
+border:1rem dotted green;
+
+}
+
+
+/*MATCHES ATTRIBUTE THAT STARTS WITH GIVEN VALUE*/
+h4[class^="tom" i]{
+
+  background-color: #003366;
+  padding: 1rem;
+  color: white;
+
+}
+
+
+/*MATCHES ATTRIBUTE VALUES ENDS WITH GIVEN VALUE*/
+h5[class$="ol"]{
+
+  background-color: pink;
+  padding: 2rem;
+
+}
+
+
+
+h6[class*="ass"]{
+  
+  background-color:#51608a;
+  padding:3rem;
+
+
+}

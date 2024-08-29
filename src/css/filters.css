@@ -1,0 +1,35 @@
+html{
+  font-size: 8x;
+}
+
+body{
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+}
+
+
+
+
+.box {
+
+  width:6rem;
+  height: 6rem;
+  border: 0.5rem dashed purple;
+
+}
+
+.shadow{
+
+  
+  box-shadow: 0.075rem 0.125rem 0rem black;
+
+  margin-right: 1rem;
+
+}
+
+.shadow_filter{
+
+  filter: drop-shadow(0.075rem 0.125rem 0rem black);
+
+}

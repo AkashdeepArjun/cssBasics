@@ -1,0 +1,44 @@
+
+html{
+
+  font-size: 8px;
+}
+
+
+
+.container{
+
+  width: 100rem;
+
+  height: 40rem;
+
+  border: 0.25rem dashed green ;
+
+  background: url('../assets/car_photo.jpg') center/100% no-repeat;
+
+  color: white;
+
+  background-color: #800000;
+
+
+}
+
+
+.container2{
+
+  margin-top: 0.5rem;
+  width:100rem;
+  height:40rem;
+  border:0.25rem dashed blue ;
+  color: white;
+
+  background: url('../assets/car_photo.jpg') center/100% no-repeat;
+  background-color: #800000;
+
+
+  background-blend-mode:lighten;
+}
+
+h1{
+  font-size:4rem;
+}

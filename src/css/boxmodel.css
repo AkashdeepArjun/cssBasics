@@ -1,0 +1,35 @@
+@import './basicSetup.css';
+
+{
+  /*box-sizing:border-box;*/
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  
+  width:12rem;
+  height:10rem;
+  padding:4rem;
+  background-color: green;
+  border:1rem dotted white;
+
+
+}
+
+
+.box2{
+  
+  box-sizing:border-box;
+ width:12rem;
+  height:10rem;
+  padding:4rem;
+  background-color: orange;
+  border:1rem dotted white;
+
+
+
+}

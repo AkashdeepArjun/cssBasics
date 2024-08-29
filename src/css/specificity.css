@@ -1,0 +1,65 @@
+@import './basicSetup.css';
+
+
+
+/*SPECIFICITY => I(identifier),C(classes),E(elements)*/
+
+h1{
+
+  background-color: cyan;
+}
+
+
+/*I=0,C=0,E=3;*/
+h1+p::first-letter{
+
+  background-color: green;
+}
+.err{
+  font-family:cursive;
+}
+
+
+/*C=2,E=2*/
+
+li> a[href*="us"] > .err{
+  background-color: indigo;
+  color:white;
+  padding: 1rem;
+}
+
+
+.potato{
+
+  background-color: #be7e7f;
+}
+
+#tomato{
+
+  font-size: 1rem;
+  background-color: #6b744f;
+
+}
+
+/*/*E=1,I=1,C=1*/*/
+/*p:not(#tomato,.potato){*/
+/*  background-color: black;*/
+/*  color:white;*/
+/*}*/
+
+
+
+.alien{
+
+  background-color: grey !important;
+  color: yellow ;
+
+}
+
+
+#trex{
+
+  background-color: red;
+  color: white;
+
+}

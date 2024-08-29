@@ -1,0 +1,73 @@
+html{
+
+  font-size:8px;
+
+
+}
+
+
+
+ul{
+
+  background-color: #74a4fd;
+  
+  padding:1rem;
+
+  width:70vw;
+
+  padding-left:4.25rem;
+}
+
+
+ul>li{
+
+  width:35%;
+  background-color: green;
+  border-radius: 1rem;
+  padding:0.5rem;
+  margin-block: 0.5rem;
+  color: white;
+  /*display: inline;*/
+
+/*margin-inline:0.5rem;*/
+  
+}
+
+/*ul li:nth-child(odd){*/
+/**/
+/*  float: right;*/
+/*}*/
+/**/
+/*ul li:nth-child(even){*/
+/*  float: left;*/
+/*}*/
+
+
+
+ul li:first-child{
+
+  /*float: right;*/
+  /*background-clip:border-box;*/
+  float: left;
+  /*background-clip: border-box;*/
+}
+
+
+div.box{
+
+  float: left;
+  width: 15rem;
+  height: 15rem;
+  background-color:#a85d57;
+  margin-right: 0.75rem;
+}
+
+
+p{
+
+
+  font-weight: 900;
+  /*font-style: bolder;*/
+
+
+}

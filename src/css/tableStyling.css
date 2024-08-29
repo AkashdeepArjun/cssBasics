@@ -1,0 +1,90 @@
+@import './basicSetup.css';
+html{
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+
+}
+
+table{
+
+table-layout: fixed;
+border-collapse: collapse;
+width:100%;
+border:.25rem solid purple;
+
+
+}
+
+thead th:nth-child(1){
+  width: 30%;
+  background-color: purple;
+  color: white;
+}
+thead th:nth-child(2){
+  background-color: green;
+  width:20%;
+  color:white;
+}
+
+thead th:nth-child(3){
+  background-color:#800000 ;
+  width: 15%;
+  color: white;
+
+
+}
+thead th:nth-child(4)
+{
+  background-color: #613;
+  width: 35%;
+  color: white;
+
+
+}
+
+th,td{
+  padding: 3rem;
+}
+
+thead th,tfoot th{
+  font-family: "Karla";
+}
+th{
+  letter-spacing: .075rem;
+}
+
+td{
+  letter-spacing: 0.1rem;
+}
+
+tbody td{
+  text-align:center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+thead th,tfoot th,tfoot td{
+
+  background:linear-gradient(to bottom,#6cb286,#15532c);
+  border:.25rem solid skyblue; 
+  color: white; 
+}
+
+tbody tr:nth-child(odd) {
+
+background-color: white;
+
+}
+
+caption{
+
+  font-family: "Karla" cursive;
+  padding: 2.5rem;
+  text-align: right;
+  caption-side: bottom;
+  letter-spacing: .125rem;
+}

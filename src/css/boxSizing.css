@@ -1,0 +1,109 @@
+html{
+
+  font-size:8px;
+  color: white;
+
+}
+
+.cont1{
+
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  gap:0.5rem;
+  border: 1rem solid purple;
+  padding: 2rem;
+  background-color:#B1D8B7;
+
+}
+
+.cont2{
+
+
+  margin-top:2rem;
+ display: grid;
+  grid-template-columns:1fr 1fr ;
+  gap:0.5rem;
+  border: 1rem solid #613659;
+  padding: 2rem;
+  background-color:#F8EA8C;
+}
+.cont2 *{
+  
+   box-sizing: border-box;
+
+}
+.cont1 *{
+    box-sizing: content-box;
+}
+.box_no_border{
+  
+  width: 48rem;
+  height: 9rem;
+
+  inline-size:48rem;
+  block-size: 9rem;
+
+  background-color:#2F5233;
+  /*align-items: center;*/
+  text-align:center;
+  font-size:2rem;
+}
+
+
+.box_border{
+
+ 
+  width: 48rem;
+  height:9rem;
+
+ inline-size:48rem;
+  block-size: 9rem;
+
+
+  background-color:#2F5233;
+  border: 0.75rem dashed black;
+  /*align-items: center;*/
+ text-align: center;
+ font-size:2rem;
+ background-clip:content-box;
+}
+
+.box_no_border_padding{
+  
+  width: 48rem;
+  height: 9rem;
+
+ inline-size:48rem;
+  block-size: 9rem;
+
+
+
+
+  background-color:#2F5233;
+  /*align-items: center;*/
+  text-align:center;
+  font-size:2rem;
+  padding:1rem;
+  background-clip:content-box;
+  border: 0.75rem dashed black;
+}
+
+.box_border_padding{
+  
+  width: 48rem;
+  height: 9rem;
+
+
+ inline-size:48rem;
+  block-size: 9rem;
+
+
+  background-color:#2F5233;
+  /*align-items: center;*/
+  text-align:center;
+  font-size:2rem;
+  padding:1rem;
+  border: 0.75rem dashed black;
+  background-clip:content-box;
+  }
+

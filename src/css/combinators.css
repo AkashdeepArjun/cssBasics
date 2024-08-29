@@ -1,0 +1,79 @@
+@import 'basicSetup.css';
+
+
+/*DESCENDANT COMBINATOR*/
+body article p{
+
+  background-color:#ff6300;
+  padding: 1rem;
+  color: white;
+}
+
+div{
+
+  background-color: #90b4a6;
+  width:12rem;
+  height: 7rem;
+}
+
+.potato{
+
+  background-color: #003366;
+}
+
+/*DOES NOT MATTER WHERE IT IS PLACED SHOULD BE INSIDE PARENT*/
+
+.potato h1 {
+  
+  background-color: cyan;
+  padding: 0.5rem;
+
+}
+
+p{
+  color: white;
+}
+
+
+/*APPLIES TO DIRECT CHILD OF ELEMENT*/
+div>h1{
+
+  font-family:cursive;
+  font-style: italic;
+}
+
+
+/*APPLIES TO ELEMENT THAT ARE IMMEDIATE SIBILING OF GIVEN ELEMENT*/
+
+h1+p{
+
+  background-color:pink;
+  padding: 1rem;
+  color:black;
+}
+
+
+/*ELEMENT ANYWARE TO THE RIGHT OF GIVEN ELEMENT*/
+
+h2~p{
+  background-color: #5c40c3;
+  color: white;
+}
+
+ul{
+
+  background-color: #873260;
+}
+
+.lol{
+
+  font-style:italic;
+  
+
+}
+
+ul>li[class="lol"]{
+  background-color: green;
+  padding: 0.5rem;
+  color: white;
+}

@@ -1,0 +1,65 @@
+html{
+
+  font-size: 8px;
+}
+
+
+
+
+.cont{
+
+  display:flex;
+  flex-direction:column;
+  width:50vw;
+  height:70vh;
+  background-color:yellow;
+  border:0.25rem dashed black;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.page_h,.page_f{
+
+  width: 100%;
+
+  flex-grow:0;
+  flex-shrink:0;
+  text-align: center;
+}
+
+
+
+.page_body{
+
+  flex-grow: 1;
+  background-color:white;
+
+  
+}
+
+.page_body>p:first-child{
+
+/* font-size:15rem; */
+  text-align: center;
+  text-justify: center;
+  background-color:green;
+  color:white;
+
+
+}
+
+
+
+

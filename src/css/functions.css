@@ -1,0 +1,35 @@
+html{
+
+  font-size:8px;
+}
+
+
+.box1{
+
+  width:30rem;
+  height:15rem;
+  background-color:#515151;
+
+}
+.box1 p{
+  
+  color: white;
+
+  text-align: center;
+
+  font-size: 2rem; 
+
+}
+
+.box2{
+
+
+    background-color:#b2ff02 ;
+
+    width:calc(100% - 5rem);
+ 
+    transform: rotate(-0.5turn);
+
+}
+
+

@@ -1,0 +1,44 @@
+
+html{
+
+  font-size: 8px;
+}
+
+h1{
+  color: pink;
+  font-style: bold;
+  border-bottom: 1.25rem dotted purple ;
+  font-size: 4rem;
+  font-family: serif;
+}
+
+h2{
+  font-style: italic;
+
+}
+
+h3{
+  font-size:2rem;
+}
+
+
+ul{
+  background-color: #eeeeee;
+  border: 0.125rem solid #5c4033;
+  padding: 0.5rem;
+  list-style-position: inside;
+}
+
+a:hover{
+  color:green;
+}
+
+p{
+  font-size: 1rem;
+}
+
+li{
+  
+  
+
+}

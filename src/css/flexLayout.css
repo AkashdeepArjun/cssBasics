@@ -1,0 +1,30 @@
+html{
+
+  font-size:8px;
+
+}
+
+h1{
+
+  font-size: 3rem;
+}
+
+div.wrapper{
+
+  background-color:#620cc4 ;
+ 
+  display:flex;
+
+  border-collapse:collapse;
+
+}
+
+div.item{
+  flex:1; 
+  background-color: #ad7fa4;
+  color: black;
+  width:10rem;
+  height: 10rem;
+  border: 0.125rem solid black;
+
+}

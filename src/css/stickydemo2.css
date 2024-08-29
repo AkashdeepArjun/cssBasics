@@ -1,0 +1,55 @@
+html{
+
+  font-size:8px;
+}
+
+.cont1{
+
+  width:100%;
+  height:50vh;
+  background-color:cyan;
+  overflow:scroll;
+}
+
+.cont2{
+
+  width:100%;
+  height:50vh;
+  background-color:blue;
+  overflow:scroll;
+
+}
+
+dl{
+
+  background-color:#fe0 ;
+
+  margin-top:4rem;
+
+ /* overflow:scroll; */
+
+}
+
+
+
+dt{
+
+  color:blue;
+  background-color:cyan;
+  padding:1rem;
+  font-size:2rem;
+  position:sticky;
+  top: 0;
+  left:0;
+ 
+}
+
+
+dd{
+
+  background-color: pink;
+  color:brown;
+  padding: 0.5rem;
+
+}
+

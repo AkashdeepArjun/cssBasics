@@ -1,0 +1,24 @@
+@import "../css/intro.css";
+
+body{
+  background-color: green;
+}
+
+@media(max-width:640px){
+
+  background-color: red;
+}
+
+@media(max-width: 320px){
+
+  body{
+    background-color: pink;
+  }
+
+
+}
+
+
+
+
+
