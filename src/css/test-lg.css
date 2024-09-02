@@ -1,0 +1,54 @@
+html{
+  font-size: 8px;
+}
+
+
+
+
+ul{
+
+  width:50vw;
+  height:50vh;
+
+  background-color:#f4cccc;
+  border:0.25rem solid blue;
+  padding:0.5rem;
+
+  /* position:absolute; */
+  /* left:50%; */
+  /* top: 50%; */
+
+
+}
+
+/* ul{ */
+/*   position: relative; */
+/*   left:0; */
+/*   top: 0; */
+/* } */
+
+ul> li{
+
+ display:flex;
+align-items: center;
+  justify-content: space-between;
+  background-color:#e7f3ff;
+  color:black;
+  padding:0.25rem;
+
+
+}
+
+ul li:not(:last-child){
+
+  border-bottom: 0.125rem solid grey;
+}
+
+
+span{
+
+  background-color:blue;
+  border-radius:80%;
+  color: white;
+  padding:0.25rem;
+}

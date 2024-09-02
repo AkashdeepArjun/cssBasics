@@ -1,0 +1,34 @@
+
+html{
+  
+  font-size:8px;
+
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+
+
+ul{
+  display:flex;
+  /* flex-flow:row; */
+  background-color:#784744;
+  padding:1rem;
+  border:0.25rem solid #5d050f;
+  color:white;
+}
+
+.push{
+
+  margin-left:auto;
+}
+
+li>a{
+  color:white;
+}
+
+
+
+

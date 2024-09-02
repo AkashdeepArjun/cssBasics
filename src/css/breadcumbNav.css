@@ -1,0 +1,50 @@
+html{
+
+  font-size: 8px;
+
+
+}
+
+
+
+.breadcumb{
+  padding:0.5rem;
+  background-color: grey;
+ 
+}
+
+.breadcumb ul{
+
+  display: flex;
+  margin:0;
+  padding:0;
+  flex-wrap:wrap;
+  list-style:none;
+
+
+
+}
+
+li{
+  margin: 0.5rem;
+}
+
+.breadcumb li:not(:last-child)::after{
+
+  /* background-color:#52327a; */
+  /* color: white; */
+  display:inline-block;
+/*   margin: 0.25rem; */
+  content:">";
+ color: yellow;
+
+
+}
+
+ul> li:not(:last-child) >a {
+
+  background-color:green;
+  color:white;
+  padding:0.5rem;
+
+}

@@ -1,0 +1,73 @@
+html{
+
+
+  font-size: 8px;
+
+}
+
+
+.container{
+  
+  width:50vw;
+  height:50vh;
+  background:grey;
+  border: 0.75rem solid black;
+
+  padding:0.5rem;
+
+  
+
+}
+
+
+
+
+
+
+.placeholder{
+
+  width: 10rem;
+  height:10rem;
+  background:purple;
+  background-clip:content-box;
+  padding:0.5rem;
+  border:0.25rem dashed black;
+  float:left;
+  border-radius:50%;
+
+  shape-outside:border-box;
+
+
+
+}
+
+
+.special{
+  
+  width:35%;
+  height:35%;
+
+  opacity: 20%;
+
+  /* border:0.5rem dotted black; */
+
+  /* padding: 0.5rem; */
+
+  float: left;
+
+  /* shape-outside:circle(25%); */
+
+  shape-outside:ellipse(100% 40%);
+  /* shape-image-threshold: 0.2; */
+  /* shape-margin: 1rem; */
+
+  clip-path:ellipse(100% 20%);
+  
+
+}
+
+
+.usual{
+
+  clear:left;
+}

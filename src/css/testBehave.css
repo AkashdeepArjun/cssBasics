@@ -1,0 +1,48 @@
+html{
+
+
+  font-size: 8px;
+
+}
+
+
+.cont{
+
+  border:0.5rem solid green;
+  width:50vw;
+  height:50vh;
+  padding: 1rem;
+
+  background-color:#80ffff;
+
+}
+
+
+.block{
+
+
+display:block;
+  background-color:#E7F3FF;
+  padding: 0.5rem;
+
+}
+
+.inline{
+
+
+  display:inline;
+background-color: #d9d2e9;
+  padding:0.5rem;
+
+}
+
+.inline-block{
+
+  display:inline-block;
+  padding: 0.5rem;
+  background-color:#46cf76;
+
+}
+
+
+
